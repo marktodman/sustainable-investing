@@ -22,9 +22,15 @@ body {
     text-align: center;
 }
 
+#menu {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
 #menu li {
     list-style-type: none;
     color: #114b5f;
+    margin: 10px;
 }
 
 #menu a {
