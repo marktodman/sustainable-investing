@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Sketch:wght@700&family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Libre Baskerville, serif;
+    font-weight: 300;
+    color: #114B5f;
+}
+
+#logo {
+    font-family: Cabin Sketch, sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    text-transform: uppercase;
+    color: #114b5f;
+}
