@@ -12,6 +12,7 @@ body {
     color: #114b5f;
 }
 
+/* LOGO */
 #logo h1 {
     font-family: Cabin Sketch, sans-serif;
     font-weight: 700;
@@ -22,9 +23,32 @@ body {
     text-align: center;
 }
 
+/* HEADER GRID */
+#nav-wrap {
+    display: grid;
+    grid-template-columns: minmax(auto, 1fr) minmax(auto, 60ch) minmax(auto, 1fr);
+    grid-template-areas: 
+    "logo logo logo"
+    ". nav ."     ;
+    justify-items: center;
+}
+
+#logo {
+    grid-area: logo;
+    justify-items: center;
+    align-items: center;
+}
+
+#nav {
+    grid-area: nav;
+    justify-items: center;
+    align-items: center;
+}
+
+/* NAV */
 #menu {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 #menu li {
@@ -36,21 +60,4 @@ body {
 #menu a {
     text-decoration: none;
     color: inherit;
-}
-
-#nav-wrap {
-    display: grid;
-    grid-template-columns: 1fr minmax(80vw, auto) 1fr;
-    grid-template-areas: 
-    ". nav ."
-    "logo logo logo";
-    justify-items: center;
-}
-
-#nav {
-    grid-area: nav;
-}
-
-#logo {
-    grid-area: logo;
 }
