@@ -23,32 +23,17 @@ body {
     text-align: center;
 }
 
-/* HEADER GRID */
-#nav-wrap {
-    display: grid;
-    grid-template-columns: minmax(auto, 1fr) minmax(auto, 60ch) minmax(auto, 1fr);
-    grid-template-areas: 
-    "logo logo logo"
-    ". nav ."     ;
-    justify-items: center;
-}
-
 #logo {
-    grid-area: logo;
-    justify-items: center;
+    display: flex;
     align-items: center;
-}
-
-#nav {
-    grid-area: nav;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
 }
 
 /* NAV */
 #menu {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu li {
