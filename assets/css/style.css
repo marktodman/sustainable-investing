@@ -68,7 +68,6 @@ h2 {
     height: 350px;
 
     display: grid;
-    gap: 10px;
     grid-template-columns: 1fr 50% 1fr;
     grid-template-rows: repeat(3, 1fr);
 }
@@ -98,5 +97,4 @@ h2 {
     grid-row-start: 3;
     justify-self: center;
     align-self: end;
-
 }
