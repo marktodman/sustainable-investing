@@ -18,6 +18,12 @@ h3 {
     font-family: Cabin, sans-serif;
     font-weight: 500;
     color: #114b5f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0.5rem auto;
 }
 
 /* LOGO */
@@ -25,10 +31,9 @@ h3 {
     font-family: Cabin Sketch, sans-serif;
     font-weight: 700;
     font-size: 330%;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     text-transform: uppercase;
     color: #114b5f;
-    text-align: center;
 }
 
 #logo {
@@ -51,7 +56,7 @@ h3 {
     text-transform: uppercase;
     list-style-type: none;
     color: #114b5f;
-    margin: 10px;
+    margin: 0.75rem;
 }
 
 #menu a {
@@ -101,3 +106,18 @@ h3 {
     justify-self: center;
     align-self: end;
 }
+
+/* SECTION CLASS ATRRIBUTES */
+
+.section-text {
+    margin: 1.25rem auto;
+    padding: 0.5rem;
+    max-width: 60ch;
+}
+
+.section-header {
+    font-family: Cabin Sketch, sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
