@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: Cabin, sans-serif;
     font-weight: 500;
     color: #114b5f;
@@ -69,24 +70,24 @@ h2 {
 
     display: grid;
     grid-template-columns: 1fr 50% 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr minmax(0, auto) 1fr;
 }
 
 /* HERO TEXT */
 
-#hero-text {
+#hero-text-box {
     padding: 10px;
 
     background-color: rgba(26, 147, 111, .8);
-
+    
     grid-column-start: 2;
     grid-row-start: 2;
 }
 
-#hero-text h2 {
+#hero-text-box h3 {
     color: #f3e9d2;
     text-transform: uppercase;
-    text-align: center;
+    text-align: center;    
 }
 
 #hero-arrow {
