@@ -24,7 +24,7 @@ h3 {
 #logo h1 {
     font-family: Cabin Sketch, sans-serif;
     font-weight: 700;
-    font-size: 300%;
+    font-size: 330%;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #114b5f;
@@ -46,7 +46,8 @@ h3 {
 
 #menu li {
     font-family: Cabin, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 110%;
     text-transform: uppercase;
     list-style-type: none;
     color: #114b5f;
@@ -86,6 +87,7 @@ h3 {
 
 #hero-text-box h3 {
     color: #f3e9d2;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;    
 }
