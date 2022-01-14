@@ -121,3 +121,80 @@ p {
     text-decoration-thickness: 0.1rem;
 }
 
+/* ICON GRID */
+
+#icon-grid {
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1rem;
+    grid-template-rows: 3.0rem 0.25rem 1.0rem 1.5rem 3.0rem 0.25rem 1.0rem;
+}
+
+#icon-top-left {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: center;
+    align-self: end;
+}
+
+#icon-top-right {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    justify-self: center;
+    align-self: end;
+}
+
+#text-top-left {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    justify-self: center;
+    align-self: start;
+}
+
+#text-top-right {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    justify-self: center;
+    align-self: start;
+}
+
+#icon-bottom-left {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    justify-self: center;
+    align-self: end;
+}
+
+#icon-bottom-right {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    justify-self: center;
+    align-self: end;
+}
+
+#text-bottom-left {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    justify-self: center;
+    align-self: start;
+}
+
+#text-bottom-right {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    justify-self: center;
+    align-self: start;
+}
+.icon-format {
+    color: #88D498;
+    font-size: 2.5rem;
+}
+
+.icon-text-format {
+    font-family: Cabin Sketch, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1A936F;
+}
