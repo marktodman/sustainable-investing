@@ -26,18 +26,15 @@ p {
     margin: 0.5rem auto;
 }
 
-a:link {
-    color: #1a936f;
-}
-
+a:link, 
 a:visited {
-    color: #88D498;
+    color: #1A936F;
 }
 
 /* LOGO */
 #logo h1 {
     font-family: Cabin Sketch, sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 330%;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
@@ -51,6 +48,7 @@ a:visited {
 }
 
 /* NAV */
+
 #menu {
     display: flex;
     align-items: center;
@@ -63,7 +61,6 @@ a:visited {
     font-size: 110%;
     text-transform: uppercase;
     list-style-type: none;
-    color: #114b5f;
     margin: 0.75rem;
 }
 
@@ -125,6 +122,16 @@ a:visited {
 
 .section-header {
     font-family: Cabin Sketch, sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    margin: 1.0rem auto;
+}
+
+.section-sub-head {
+    font-family: Cabin, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 110%;
 }
 
 /* ICON GRID AND ICON CLASSES */
