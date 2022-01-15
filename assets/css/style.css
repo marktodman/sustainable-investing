@@ -125,7 +125,7 @@ p {
 
 #icon-grid {
     max-width: 500px;
-    margin: auto;
+    margin: 1.25rem auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1rem;
