@@ -114,17 +114,23 @@ a:visited {
 
 /* SECTION CLASSES */
 
+.section-container{
+    display: grid;
+    grid-auto-flow: rows;
+    gap: 1em;
+}
+
 .section-text {
-    margin: 1.25rem auto;
     padding: 0.5rem;
     max-width: 60ch;
+    margin: auto;
 }
 
 .section-header {
     font-family: Cabin Sketch, sans-serif;
     font-weight: 700;
     font-size: 150%;
-    margin: 1.0rem auto;
+    margin: 0.5rem auto;
 }
 
 .section-sub-head {
@@ -263,4 +269,16 @@ a:visited {
     grid-row-start: 3;
     justify-self: center;
     align-self: start;
+}
+
+/* MEDIA QUERIES */
+
+@media  (min-width: 60em) {
+    .section-container {
+        grid-auto-flow: column;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+
 }
