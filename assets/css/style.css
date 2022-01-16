@@ -69,6 +69,12 @@ a:visited {
     color: inherit;
 }
 
+#menu a:hover {
+    background-color: #1A936F;
+    color: #f3e9d2;
+    padding: 0.5rem;
+}
+
 /* HERO IMAGE */
 
 #hero-image {
@@ -324,6 +330,13 @@ a:visited {
 .social-links a {
     text-decoration: none;
     color: inherit;
+}
+
+#footer p {
+    /* text-align: justify; */
+    font-style: italic;
+    font-size: 75%;
+    margin: 0 2.0rem 0 2.0rem;
 }
 
 /* MEDIA QUERIES */
