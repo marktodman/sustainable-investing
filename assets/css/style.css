@@ -26,7 +26,7 @@ p {
     margin: 0.5rem auto;
 }
 
-a:link, 
+a:link,
 a:visited {
     color: #1A936F;
 }
@@ -90,7 +90,7 @@ a:visited {
     padding: 10px;
 
     background-color: rgba(26, 147, 111, .8);
-    
+
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -99,7 +99,7 @@ a:visited {
     color: #f3e9d2;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
 }
 
 #hero-arrow {
@@ -114,7 +114,7 @@ a:visited {
 
 /* SECTION CLASSES */
 
-.section-container{
+.section-container {
     display: grid;
     grid-auto-flow: rows;
     gap: 1em;
@@ -123,7 +123,7 @@ a:visited {
 .section-text {
     padding: 0.5rem;
     max-width: 60ch;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .section-header {
@@ -142,7 +142,7 @@ a:visited {
 
 /* ICON GRID AND ICON CLASSES */
 
-#icon-grid {
+.icon-grid {
     max-width: 500px;
     margin: 1.0rem auto 3.0rem;
     display: grid;
@@ -151,61 +151,62 @@ a:visited {
     grid-template-rows: 3.0rem 0.25rem 1.0rem 1.5rem 3.0rem 0.25rem 1.0rem;
 }
 
-#icon-top-left {
+.icon-top-left {
     grid-column-start: 1;
     grid-row-start: 1;
     justify-self: center;
     align-self: end;
 }
 
-#icon-top-right {
+.icon-top-right {
     grid-column-start: 2;
     grid-row-start: 1;
     justify-self: center;
     align-self: end;
 }
 
-#text-top-left {
+.text-top-left {
     grid-column-start: 1;
     grid-row-start: 3;
     justify-self: center;
     align-self: start;
 }
 
-#text-top-right {
+.text-top-right {
     grid-column-start: 2;
     grid-row-start: 3;
     justify-self: center;
     align-self: start;
 }
 
-#icon-bottom-left {
+.icon-bottom-left {
     grid-column-start: 1;
     grid-row-start: 5;
     justify-self: center;
     align-self: end;
 }
 
-#icon-bottom-right {
+.icon-bottom-right {
     grid-column-start: 2;
     grid-row-start: 5;
     justify-self: center;
     align-self: end;
 }
 
-#text-bottom-left {
+.text-bottom-left {
     grid-column-start: 1;
     grid-row-start: 7;
     justify-self: center;
     align-self: start;
 }
 
-#text-bottom-right {
+.text-bottom-right {
     grid-column-start: 2;
     grid-row-start: 7;
     justify-self: center;
     align-self: start;
 }
+
 .icon-format {
     color: #88D498;
     font-size: 2.5rem;
@@ -273,11 +274,12 @@ a:visited {
 
 /* MEDIA QUERIES */
 
-@media  (min-width: 60em) {
+@media (min-width: 60em) {
     .section-container {
         grid-auto-flow: column;
         margin: 0 auto;
         max-width: 900px;
+        justify-content: start;
     }
 
 
