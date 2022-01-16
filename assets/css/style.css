@@ -137,7 +137,6 @@ a:visited {
     font-family: Cabin, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 110%;
 }
 
 /* ICON GRID AND ICON CLASSES */
@@ -270,6 +269,35 @@ a:visited {
     grid-row-start: 3;
     justify-self: center;
     align-self: start;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-input {
+    background: transparent;
+    text-align: center;
+    color: #114b5f;
+    width: 20rem;
+    height: 2.0rem;
+    border: 0.1rem solid #114b5f;
+    border-radius: 0.5rem;
+}
+
+.subscribe-button {
+    margin: 0.25rem;
+    text-transform: uppercase;
+    color: #f3e9d2;
+    width: 10rem;
+    height: 2.0rem;
+    background-color: #1A936F;
+    border: 0.1rem solid #1A936F;
+    border-radius: 0.5rem;
 }
 
 /* MEDIA QUERIES */
