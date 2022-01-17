@@ -120,11 +120,6 @@ a:visited {
 
 /* SECTIONS */
 
-.section-wide-display {
-    display: grid;
-    grid-auto-flow: row;
-}
-
 .section-container {
     display: grid;
     grid-auto-flow: row;
@@ -133,7 +128,7 @@ a:visited {
 
 .section-text {
     padding: 0.25rem;
-    max-width: 60ch;
+    max-width: 55ch;
     margin: 0 auto;
 }
 
