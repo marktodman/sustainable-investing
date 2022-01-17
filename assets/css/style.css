@@ -309,6 +309,7 @@ a:visited {
     .section-container {
         grid-auto-flow: column;
         margin: 0 auto;
+        padding: 0 0.5rem 0 0.5rem;
         max-width: 1200px;
         justify-content: start;
     }
