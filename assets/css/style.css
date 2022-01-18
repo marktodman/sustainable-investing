@@ -314,6 +314,15 @@ a:visited {
         justify-content: start;
     }
 
+    .section-header {
+        margin: 2.0rem auto;
+    }
+
+    .icon-row {
+        max-width: 500px;
+        margin: 3.0rem auto 5.0rem;
+    }
+
     #hero-image {
         max-width: 1200px;
         margin: 0 auto;
