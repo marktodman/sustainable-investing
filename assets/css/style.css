@@ -30,6 +30,11 @@ a:visited {
     color: #2D6A4F;
 }
 
+a:hover {
+    background-color: #081C15;
+    color: #B7E4C7;
+}
+
 /* LOGO */
 
 #logo h1 {
@@ -235,7 +240,7 @@ a:visited {
 }
 
 .email-input {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     text-align: center;
     color: #2D6A4F;
     width: 15rem;
