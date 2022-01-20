@@ -5,6 +5,10 @@
 
 ![Example of the application on multiple devices.](/assets/images/readme-images/amiresponsive.png)
 
+The deployed [Sustainable Investing website](https://marktodman.github.io/sustainable-investing/).
+
+The [GitHub repository](https://github.com/marktodman/sustainable-investing).
+
 ## USER EXPERIENCE (UX)
 ---
 
@@ -93,6 +97,7 @@ The sections are separated by rows of icons that visually emphasise the section 
 ![Environmental Social and Governance icons.](/assets/images/readme-images/esg-icons.png) ![Impact Growth and Balance icons.](/assets/images/readme-images/igb-icons.png)
 
 ## TESTING
+---
 
 ## HTML Validation
 
@@ -118,6 +123,7 @@ There were a number of fixes identified during validation:
 4. Image file size. The hero image was origianlly 4MB causing the site to load slowly. The image was resolution was reduced, compressed and converted to WebP format, which has improved performance.
 
 ## DEPLOYMENT
+---
 
 The site has been deployed through [GitHub Pages](https://marktodman.github.io/sustainable-investing/). 
 
@@ -156,6 +162,7 @@ To use this code and make changes without affecting the original code, it is pos
 5. A copy of the repository will be available in your own repository.
 
 ## CREDITS
+---
 
 All content is originaly written by the site author, Mark Todman. Additional links to external material are provide in the website.
 
