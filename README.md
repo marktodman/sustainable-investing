@@ -94,13 +94,28 @@ The sections are separated by rows of icons that visually emphasise the section 
 
 ## TESTING
 
-The website code has been tested for errors
+## HTML Validation
 
-The website has been reviewed for accessibility using 
+The HTML code has been tested for errors with the [W3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarktodman.github.io%2Fsustainable-investing%2F) and passed with no errors.
+
+## CSS Validation
+
+The CSS code has been tested for errors with the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarktodman.github.io%2Fsustainable-investing%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and passed with no errors.
+
+## Accessibility 
+
+The website has been tested for accessbility using Lighthouse on Chrome DevTools and scored 100.
+
+![Extract from Lighthouse report.](/assets/images/readme-images/lighthouse.png)
 
 ## Fixes
 
-JPG to WebP
+There were a number of fixes identified during validation:
+
+1. Duplicate classes. Some classes had been duplicated in the elements associated with the icons. The duplications were deleted.
+2. Font contrast. The icon fonts did not provide enough contrast. The font-family and font-color were changed to improve accessiblity.
+3. Input fields on Newsletter. The input fields were not labelled. Labels were added to improve accessibility.
+4. Image file size. The hero image was origianlly 4MB causing the site to load slowly. The image was resolution was reduced, compressed and converted to WebP format, which has improved performance.
 
 ## DEPLOYMENT
 
@@ -142,15 +157,19 @@ To use this code and make changes without affecting the original code, it is pos
 
 ## CREDITS
 
+All content is originaly written by the site author, Mark Todman. Additional links to external material are provide in the website.
+
 [Scott Webb on Pexels](https://www.pexels.com/@scottwebb) provided the hero image.
+
+Icons were sourced from [Font Awesome](https://fontawesome.com/).
 
 [Tiny JPG](https://tinyjpg.com/) and [Compress.com](https://www.compresss.com/compress-webp.html) were utilised to compress images. [Cloud Convert](https://cloudconvert.com/jpg-to-webp) was used to convert JPG to WebP format to try and improve Performance.
 
 The scroll to top button was created using code taken directly from [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp). The helpful community at [Stack Overflow](https://stackoverflow.com/questions/70734242/hidden-javascript-button-on-larger-screen) ensured that it would not display on larger screens.
 
-Chris Quinn as Mentor and John Traas in Tutor Support at the [Code Institute](https://codeinstitute.net/) provided excellent direction and helped with resources to solve CSS Grid and Flexbox challenges.
-
 [Kevin Powell](https://www.youtube.com/user/KepowOb) provided invaluable guidance on CSS Grid.
+
+Chris Quinn as Mentor and John Traas in Tutor Support at the [Code Institute](https://codeinstitute.net/) provided excellent direction and helped with resources to solve CSS Grid and Flexbox challenges.
 
 
 
