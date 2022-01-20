@@ -74,11 +74,29 @@ The footer includes links to social media sites, so that users can connect and a
 
 ## Visual Design
 
-The website is designed to be clean and clear for the user. A green color palette was chosen using suggestions on [Coolors](https://coolors.co/)
+The website is designed to be clean and clear for the user. A green color palette was chosen using suggestions on [Coolors](https://coolors.co/). These colors were used throughout with darker colors for the text and lighter colors for the call out boxes. Links use the inverse of dark colors for the padding and light colors for the text.
 
+![Coolors color palette for Sustainable Investing website.](/assets/images/readme-images/sustainable-investing-colors.png)
 
+Cabin Sketch was chosen for the logo as it is an informal font. As the site is designed for new investors and investors looking for new ideas, an informal font is used to make the user feel relaxed (unlike many other financial webites). Cabin Sketch is used for the logo and throughout the website in the section headers.
 
 ![Logo with Cabin Sketch font.](/assets/images/readme-images/logo.png)
+
+Cabin, a sans-serif font, was chosen for the sub-section headers as this compliments the logo and section headers.
+
+Libre Baskerville, a serif font, was chosen for the main text as it is easy to read and offers a good contrast with the Cabin and Cabin Sketch.
+
+The sections and sub-sections appear as rows on smaller (less than 850px) screens. On larger (over 850px) screens the sections are in three sub-section columns. This design is repeated throughout the page and provides emphasis and balance.
+
+The sections are separated by rows of icons that visually emphasise the section text that has gone before. They serve to break up the sections and to reinforce the messaging.
+
+![Environmental Social and Governance icons.](/assets/images/readme-images/esg-icons.png) ![Impact Growth and Balance icons.](/assets/images/readme-images/igb-icons.png)
+
+## TESTING
+
+The website code has been tested for errors
+
+The website has been reviewed for accessibility using 
 
 
 

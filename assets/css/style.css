@@ -103,10 +103,10 @@ a:hover {
     grid-row-start: 2;
 }
 
-#hero-text-box h3 {
+#hero-text-box h1 {
     color: whitesmoke;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     text-transform: uppercase;
     text-align: center;
 }
