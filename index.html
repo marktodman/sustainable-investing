@@ -208,17 +208,22 @@
         <!-- MORE SECTION -->
         <section id="more">
             <h3 class="section-header">Sign up to our newsletter to get more tips</h3>
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <ul class="newsletter">
-                    <li><input type="text" name="first_name" placeholder="Your first name" class="name-input"></li>
-                    <li><input type="email" name="email_address" placeholder="Your email address" class="email-input"
-                            required>
-                    </li>
-                    <li><input type="submit" value="Subscribe" class="subscribe-button"></li>
-                </ul>
+            <form action="https://formdump.codeinstitute.net/" method="post" class="newsletter">
+
+                <label for="fname">First name</label>
+                <input id="fname" type="text" name="first_name" placeholder="Your first name" class="name-input">
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email_address" placeholder="Your email address" class="email-input"
+                    required>
+
+                <input type="submit" value="Subscribe" class="subscribe-button">
+
             </form>
+
         </section>
     </main>
+
     <!-- FOOTER -->
     <footer id="footer">
         <ul class="social-links">
@@ -241,6 +246,8 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="https://kit.fontawesome.com/d96ac1eb38.js" crossorigin="anonymous"></script>
+
+    <!-- TOP BUTTON SCRIPT CODE FROM W3 WITH HELP FROM THE COMMUNITY AT STACKOVERFLOW TO HIDE THE BUTTON ON SCREENS OVER 850PX -->
     <script>
         var mybutton = document.getElementById("top-button");
 
