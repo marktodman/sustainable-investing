@@ -98,5 +98,63 @@ The website code has been tested for errors
 
 The website has been reviewed for accessibility using 
 
+## Fixes
+
+JPG to WebP
+
+## DEPLOYMENT
+
+The site has been deployed through [GitHub Pages](https://marktodman.github.io/sustainable-investing/). 
+
+## Remote Deployment
+
+The steps to remote deployment via GitHub Pages are:
+
+1. Create an account at [GitHub](www.gitpod.io).
+2. Log into your GitHub account.
+3. Go to the GitHub repository for [Sustainable Investing](https://github.com/marktodman/sustainable-investing).
+4. Click on 'Settings'.
+5. Select 'Pages' from the menu on the left-hand-side.
+6. Under 'Source' select 'Main' and click 'Save'.
+7. Notification that the site is published appears on the top of the pages section together with a [link to the site](https://marktodman.github.io/sustainable-investing/).
+
+## Local Depoloyment
+
+The steps to make a local copy via GitHub pages are:
+
+1. Create an account at [GitHub](www.gitpod.io).
+2. Log into your GitHub account.
+3. Go to the GitHub repository for [Sustainable Investing](https://github.com/marktodman/sustainable-investing).
+4. Click the green 'Code' button.
+5. Select your chosen clone format: HTTPS, SSH or GitHub CLI.
+6. Click the 'copy' button.
+7. Deploy the copy locally.
+
+## Forking the GitHub Repository
+
+To use this code and make changes without affecting the original code, it is possible to 'fork' the code on the GitHub repository through the following steps:
+
+1. Create an account at [GitHub](www.gitpod.io).
+2. Log into your GitHub account.
+3. Go to the GitHub repository for [Sustainable Investing](https://github.com/marktodman/sustainable-investing).
+4. Click the 'Fork' button in the upper right hand corner of the page.
+5. A copy of the repository will be available in your own repository.
+
+## CREDITS
+
+[Scott Webb on Pexels](https://www.pexels.com/@scottwebb) provided the hero image.
+
+[Tiny JPG](https://tinyjpg.com/) and [Compress.com](https://www.compresss.com/compress-webp.html) were utilised to compress images. [Cloud Convert](https://cloudconvert.com/jpg-to-webp) was used to convert JPG to WebP format to try and improve Performance.
+
+The scroll to top button was created using code taken directly from [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp). The helpful community at [Stack Overflow](https://stackoverflow.com/questions/70734242/hidden-javascript-button-on-larger-screen) ensured that it would not display on larger screens.
+
+Chris Quinn as Mentor and John Traas in Tutor Support at the [Code Institute](https://codeinstitute.net/) provided excellent direction and helped with resources to solve CSS Grid and Flexbox challenges.
+
+[Kevin Powell](https://www.youtube.com/user/KepowOb) provided invaluable guidance on CSS Grid.
+
+
+
+
+
 
 

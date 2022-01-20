@@ -82,7 +82,7 @@ a:hover {
 /* HERO IMAGE */
 
 #hero-image {
-    background: url("../images/pexels-scott-webb-1048033-sml.jpg");
+    background: url("../images/pexels-scott-webb-1048033-small.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ a:hover {
     grid-row-start: 2;
 }
 
-#hero-text-box h1 {
+#hero-text-box h2 {
     color: whitesmoke;
     font-weight: 600;
     font-size: 1.4rem;
@@ -332,7 +332,7 @@ a:hover {
         margin: 0 auto;
     }
 
-    #hero-text-box h1 {
+    #hero-text-box h2 {
         font-size: 2.75rem;
     }
 
