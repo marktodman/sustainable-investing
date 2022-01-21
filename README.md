@@ -9,6 +9,7 @@ The deployed [Sustainable Investing website](https://marktodman.github.io/sustai
 
 The [GitHub repository](https://github.com/marktodman/sustainable-investing).
 
+---
 ## USER EXPERIENCE (UX)
 ---
 
@@ -96,6 +97,7 @@ The sections are separated by rows of icons that visually emphasise the section 
 
 ![Environmental Social and Governance icons.](/assets/images/readme-images/esg-icons.png) ![Impact Growth and Balance icons.](/assets/images/readme-images/igb-icons.png)
 
+--- 
 ## TESTING
 ---
 
@@ -117,11 +119,12 @@ The website has been tested for accessbility using Lighthouse on Chrome DevTools
 
 There were a number of fixes identified during validation:
 
-1. Duplicate classes. Some classes had been duplicated in the elements associated with the icons. The duplications were deleted.
+1. Duplicate classes. Some classes had been duplicated in the HTML elements associated with the icons. The duplications were deleted.
 2. Font contrast. The icon fonts did not provide enough contrast. The font-family and font-color were changed to improve accessiblity.
 3. Input fields on Newsletter. The input fields were not labelled. Labels were added to improve accessibility.
 4. Image file size. The hero image was origianlly 4MB causing the site to load slowly. The image was resolution was reduced, compressed and converted to WebP format, which has improved performance.
 
+---
 ## DEPLOYMENT
 ---
 
@@ -161,6 +164,7 @@ To use this code and make changes without affecting the original code, it is pos
 4. Click the 'Fork' button in the upper right hand corner of the page.
 5. A copy of the repository will be available in your own repository.
 
+---
 ## CREDITS
 ---
 
