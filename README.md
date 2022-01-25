@@ -180,6 +180,8 @@ The scroll to top button was created using code taken directly from [W3 Schools]
 
 [Kevin Powell](https://www.youtube.com/user/KepowOb) provided invaluable guidance on CSS Grid.
 
+Example code and source database address from the [Code Institute](https://codeinstitute.net/) were utilised in the Newsletter sign up feature.
+
 Chris Quinn as Mentor and John Traas in Tutor Support at the [Code Institute](https://codeinstitute.net/) provided excellent direction and helped with resources to solve CSS Grid and Flexbox challenges.
 
 
