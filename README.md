@@ -134,7 +134,7 @@ The site has been deployed through [GitHub Pages](https://marktodman.github.io/s
 
 The steps to remote deployment via GitHub Pages are:
 
-1. Create an account at [GitHub](www.gitpod.io).
+1. Create an account at [GitHub](https://github.com/).
 2. Log into your GitHub account.
 3. Go to the GitHub repository for [Sustainable Investing](https://github.com/marktodman/sustainable-investing).
 4. Click on 'Settings'.
@@ -146,7 +146,7 @@ The steps to remote deployment via GitHub Pages are:
 
 The steps to make a local copy via GitHub pages are:
 
-1. Create an account at [GitHub](www.gitpod.io).
+1. Create an account at [GitHub](https://github.com/).
 2. Log into your GitHub account.
 3. Go to the GitHub repository for [Sustainable Investing](https://github.com/marktodman/sustainable-investing).
 4. Click the green 'Code' button.
@@ -158,7 +158,7 @@ The steps to make a local copy via GitHub pages are:
 
 To use this code and make changes without affecting the original code, it is possible to 'fork' the code on the GitHub repository through the following steps:
 
-1. Create an account at [GitHub](www.gitpod.io).
+1. Create an account at [GitHub](https://github.com/).
 2. Log into your GitHub account.
 3. Go to the GitHub repository for [Sustainable Investing](https://github.com/marktodman/sustainable-investing).
 4. Click the 'Fork' button in the upper right hand corner of the page.
